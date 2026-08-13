@@ -1,0 +1,154 @@
+/* ---------- Global Styles ---------- */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+
+/* ---------- Resume Container ---------- */
+
+.resume {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+
+/* ---------- Header ---------- */
+
+.resume-header {
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.resume-header h1 {
+  font-size: 32px;
+  margin: 0;
+  color: #2c3e50;
+}
+
+.resume-header p {
+  font-size: 18px;
+  color: #777;
+  margin: 10px 0;
+}
+
+
+/* ---------- Contact Information ---------- */
+
+.contact-info {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.contact-info a {
+  color: #3498db;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+
+/* ---------- Sections ---------- */
+
+.section {
+  margin-bottom: 30px;
+}
+
+
+/* ---------- Section Title ---------- */
+
+.section-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 15px;
+
+  border-left: 5px solid #3498db;
+  padding-left: 10px;
+}
+
+
+/* ---------- Paragraphs and Lists ---------- */
+
+.section p,
+.section li {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+/* ---------- Lists ---------- */
+
+ul {
+  list-style-type: square;
+  padding-left: 25px;
+}
+
+.achievements li,
+.certifications li {
+  margin-bottom: 8px;
+}
+
+
+/* ---------- Education & Skills Tables ---------- */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+}
+
+
+/* ---------- Additional Information ---------- */
+
+.additional-info {
+  font-size: 15px;
+  color: #444;
+}
+
+
+/* ---------- Responsive Design ---------- */
+
+@media (max-width: 768px) {
+
+  .resume {
+    margin: 20px;
+    padding: 25px;
+  }
+
+  .resume-header h1 {
+    font-size: 28px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  table td {
+    padding: 8px;
+  }
+}
